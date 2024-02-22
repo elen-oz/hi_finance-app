@@ -38,6 +38,7 @@ body {
   font-family: Montserrat;
 }
 
+
 /* ---------------- Global Styles --------------------- */
 .wrapper {
   min-height: 100%;
@@ -130,4 +131,32 @@ body {
   .header__meny {
     font-size: 18px;
   }
+}
+
+
+/* -----PAGE----------------------------------------------------------------------------------------------- */
+.page {
+  flex: 1 1 auto;
+}
+.page__main-block {
+}
+.page__services {
+  position: relative;
+  z-index: 2;
+  margin: -111px 0px 0px 0px;
+}
+.page__advantages {
+}
+.page__practicess {
+}
+.page__whoweare {
+}
+.page__clients:not(:last-child) {
+  margin: 0px 0px 10px 0px;
+}
+.page__subscribe {
+}
+.page__getintouch {
+}
+.page__contact {
 }
