@@ -38,7 +38,7 @@ body {
   font-family: Montserrat;
 }
 
-/* --- Global Styles ----- */
+/* ---------------- Global Styles --------------------- */
 .wrapper {
   min-height: 100%;
   overflow: hidden;
@@ -62,4 +62,72 @@ body {
   top: 0;
   left: 0;
   object-fit: cover;
+}
+
+/* -------- HEADER ------------------- */
+.header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 50;
+}
+.header__container {
+  display: flex;
+  min-height: 104px;
+  align-items: center;
+}
+@media (max-width: 479px) {
+  .header__container {
+    min-height: 70px;
+  }
+}
+.header__logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: inherit;
+}
+.header__meny {
+  margin: 0px 0px 0px 133px;
+}
+@media (max-width: 992px) {
+  .header__meny {
+    margin: 0px 0px 0px 80px;
+  }
+}
+@media (max-width: 767px) {
+  .header__meny {
+    margin: 0px 0px 0px 40px;
+  }
+}
+@media (max-width: 479px) {
+  .header__meny {
+    margin: 0px 0px 0px 20px;
+  }
+}
+.meny {
+  padding: 5px 0px;
+}
+.menu__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu__item {
+}
+.menu__item:not(:last-child) {
+  margin: 0px 21px 0px 0px;
+}
+
+.menu__link {
+  color: #737373;
+  line-height: calc(24 / 14 * 100%);
+  font-weight: 600;
+}
+.menu__link:hover {
+  text-decoration: underline;
+}
+@media (max-width: 479px) {
+  .header__meny {
+    font-size: 18px;
+  }
 }
