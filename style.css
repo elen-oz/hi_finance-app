@@ -28,7 +28,16 @@ h6 {
   font-size: inherit;
 }
 html,
-body {
+/* body {
+  height: 100%;
+  line-height: 1;
+  background-color: #fafafa;
+  font-size: 14px;
+  color: #252b42;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+} */
+.body {
   height: 100%;
   line-height: 1;
   background-color: #fafafa;
