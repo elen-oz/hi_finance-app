@@ -135,6 +135,7 @@ body {
 /* -----PAGE----------------------------------------------------------------------------------------------- */
 .page {
   flex: 1 1 auto;
+  position: relative;
 }
 .page__services {
   position: relative;
@@ -175,6 +176,26 @@ body {
 }
 
 /* -----MAIN-BLOCK--------------------- */
+.announcement {
+  color: white;
+  padding: 10px;
+  background-color: #0d5c63;
+  z-index: 10;
+  text-align: center;
+}
+
+.announcement_btn {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.announcement_btn:hover {
+  cursor: pointer;
+  font-style:italic;
+}
+
 .main-block {
   position: relative;
 }
