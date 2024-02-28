@@ -222,9 +222,10 @@ body {
 }
 .main-block__title {
   font-size: 45px;
-  line-height: calc(80 / 45 * 100%);
+  line-height: 1.5;
   letter-spacing: 0.2px;
   font-weight: 800;
+  padding-top: 5rem;
 }
 @media (max-width: 479px) {
   .main-block__title {
