@@ -28,6 +28,7 @@ h6 {
 }
 html,
 body {
+  scroll-behavior: smooth;
   height: 100%;
   line-height: 1;
   background-color: #fafafa;
