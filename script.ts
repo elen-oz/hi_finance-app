@@ -1,4 +1,6 @@
-const subscribeInputFormEl = document.getElementById('subscribe__input');
+const subscribeInputFormEl = document.getElementById(
+  'subscribe__input'
+) as HTMLInputElement;
 const subscribeButtonFormEl = document.getElementById('subscribe__button');
 
 if (subscribeButtonFormEl) {
@@ -23,7 +25,7 @@ const announcementCloseBtnEl = document.getElementById(
 );
 
 if (announcementCloseBtnEl) {
-  announcementCloseBtnEl.addEventListener('click', (e) => {
+  announcementCloseBtnEl.addEventListener('click', () => {
     if (announcementEl) {
       announcementEl.classList.add('close');
     }
