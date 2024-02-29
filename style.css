@@ -211,6 +211,10 @@ body {
   top: 1rem;
   right: 1rem;
   padding: 6px;
+
+  border: none;
+  background-color: #0d5c63;
+  color: #fafafa;
 }
 .announcement__btn--close:hover {
   font-weight: 800;
