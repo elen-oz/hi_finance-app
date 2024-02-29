@@ -2,4 +2,4 @@ build:
 	parcel build index.html
 
 deploy:
-	netlify deploy
+	netlify deploy --prod
