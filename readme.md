@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d67d899e-fbac-4bc8-a42f-28e3cebeb3d3/deploy-status)](https://app.netlify.com/sites/consulting-app/deploys)
+
 # The Accountants Website
 
 This repository contains the code for a website created as a study project for a fictitious company. The website is designed with a specific target audience in mind and meets the requirements outlined for accessibility, SEO, and performance.
