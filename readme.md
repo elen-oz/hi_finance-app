@@ -1,6 +1,7 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d67d899e-fbac-4bc8-a42f-28e3cebeb3d3/deploy-status)](https://app.netlify.com/sites/consulting-app/deploys)
-
 # The Accountants Website
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d67d899e-fbac-4bc8-a42f-28e3cebeb3d3/deploy-status)](https://app.netlify.com/sites/consulting-app/deploys)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/beee6f0661614605ad7253129dd23a2d)](https://app.codacy.com/gh/elen-oz/hi_finance-app/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 This repository contains the code for a website created as a study project for a fictitious company. The website is designed with a specific target audience in mind and meets the requirements outlined for accessibility, SEO, and performance.
 
@@ -32,7 +33,7 @@ The website's performance metrics are optimized for speed and efficiency, with a
 
 ## How to Use
 
-To view the website, simply open the `index.html` file in your web browser. You can also deploy the website to a web server to make it accessible online.
+Open the `index.html` file in your web browser.
 
 ## Credits
 
