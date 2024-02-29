@@ -332,8 +332,8 @@ body {
 }
 @media (max-width: 992px) {
   .main-block__image {
-    background-image: none;
-    background-color: #f8fafc;
+    filter: blur(4px);
+    opacity: 0.3;
   }
 }
 
