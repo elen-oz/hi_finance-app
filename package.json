@@ -1,0 +1,17 @@
+{
+  "name": "hi_finance-app",
+  "version": "1.0.0",
+  "description": "This repository contains the code for a website created as a study project for a fictitious company. The website is designed with a specific target audience in mind and meets the requirements outlined for accessibility, SEO, and performance.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.10.3",
+    "@parcel/transformer-webmanifest": "^2.10.3",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^5.3.3"
+  }
+}
