@@ -19,19 +19,20 @@
       <header class="header">
         <div class="announcement"> Book a time with one of our accountants for a consulting session!
           <a
-          href="https://en.wikipedia.org/wiki/Finance"
+          href="#contact-us"
           aria-label="book a time"
-          class="announcement_btn"
+          class="announcement__link"
           >Book time now
           </a>
+          <div class="announcement__btn--close">x</div>
         </div>
         <div class="header__container _container">
-          <a href="#/" class="header__logo"> The Accountants </a>
+          <a href="#home" class="header__logo"> The Accountants </a>
           <nav class="header__meny meny">
             <ul class="menu__list">
               <li class="menu__item">
                 <a
-                  href="/index.html"
+                  href="#home"
                   class="menu__link"
                   aria-label="Go to the Home page"
                 >
@@ -39,16 +40,16 @@
                 </a>
               </li>
               <li class="menu__item">
-                <a href="/index.html" class="menu__link" aria-label="Explore our Products">Book a time</a>
+                <a href="#contact-us" class="menu__link" aria-label="Explore our Products">Book a time</a>
               </li>
               <li class="menu__item">
-                <a href="https://github.com/collaboration-work/team-7-react-project" target="_blank" class="menu__link" aria-label="View Pricing Options"
+                <a href="#contact-us" class="menu__link" aria-label="View Pricing Options"
                   >Pricing</a
                 >
               </li>
               <li class="menu__item">
                 <a
-                  href="https://github.com/collaboration-work/team-7-react-project" target="_blank"
+                  href="#contact-us"
                   class="menu__link"
                   aria-label="Contact Us for More Information"
                   >Contact</a
@@ -60,24 +61,24 @@
       </header>
 
       <main class="page">
-        <section class="page__main-block main-block">
+        <section class="page__main-block main-block" id="home">
           <div class="main-block__container _container">
             <div class="main-block__body">
               <h1 class="main-block__title">
                 Welcome to the Accountants
               </h1>
               <p class="main-block__text">
-                At The Accountants, we understand the intricacies of financial management and the critical role it plays in the success of your business and individuals. With our team of experienced accountants, we offer comprehensive accounting solutions and expert financial advice tailored to your specific needs.
+                Tailored financial advice and accounting solutions for businesses and individuals.
               </p>
               <div class="main-block__buttons">
                 <a
-                  href="https://en.wikipedia.org/wiki/Finance"
+                  href="#contact-us"
                   class="main-block__button main-block__button_orange"
                   aria-label="book a time"
                   >Book time now</a
                 >
                 <a
-                  href="https://en.wikipedia.org/wiki/Finance"
+                  href="#contact-us"
                   class="main-block__button main-block__button_border"
                   aria-label="Click to Learn More"
                   >Learn More</a
@@ -148,7 +149,7 @@
             <div class="advantages__header header-block">
               <h2 class="header-block__title">Our Expertise</h2>
               <div class="header-block__subtitle">
-                Our team comprises skilled professionals with in-depth knowledge and extensive experience in accounting and financial management.
+                Our team consists of skilled professionals with extensive experience in accounting and financial management.
               </div>
             </div>
             <div class="advantages__body">
@@ -286,7 +287,7 @@
             <div class="whoweare__header header-block">
               <h2 class="header-block__title">Who We Are</h2>
               <div class="header-block__subtitle">
-                At The Accountants, we are more than just number crunchers. We are trusted advisors dedicated to helping businesses thrive financially. 
+                We're trusted advisors dedicated to helping businesses thrive financially beyond number crunching. 
               </div>
             </div>
             <div class="whoweare__body">
@@ -297,7 +298,7 @@
                 <div class="whoweare__top">
                   <div class="whoweare__title">Most trusted in our field</div>
                   <div class="whoweare__text">
-                    With a blend of expertise, integrity, and personalized service, we go beyond traditional accounting to deliver strategic insights and innovative solutions tailored to your unique needs. 
+                    With expertise, integrity, and personalized service, we offer strategic insights and innovative solutions tailored to your unique needs.
                   </div>
                 </div>
                 <div class="whoweare__items">
@@ -386,19 +387,18 @@
           </div>
         </section>
 
-        <section class="page__getintouch getintouch">
+        <section class="page__getintouch getintouch" id='contact-us'>
           <div class="getintouch__container _container">
             <div class="getintouch__header header-block">
               <h2 class="header-block__title">Get In Touch</h2>
               <p class="header-block__subtitle">
-                Ready to take control of your finances and achieve your business objectives? Contact us today to schedule a consultation with one of our experts. Whether you're a small startup or a large corporation, we have the expertise and resources to support your financial needs.
+                Ready to achieve your business goals? <br/> Contact us for a consultation with our experts.
               </p>
             </div>
             <div class="getintouch__items">
               <div class="getintouch__item item-getintouch">
                 <div class="item-getintouch__icon">
                   <img
-
                     src="./img/getintouch/01.svg"
                     alt="get in touch icon"
                   />
@@ -412,7 +412,7 @@
                   >
                 </div>
 
-                <a href="" class="item-getintouch__button" aria-label="Book a phone meeting">Book a Phone Call</a>
+                <a href="#contact-us" class="item-getintouch__button" aria-label="Book a phone meeting">Book a Phone Call</a>
               </div>
               <div
                 class="getintouch__item item-getintouch item-getintouch_active"
@@ -464,7 +464,7 @@
             <div class="contact__body">
               <div class="contact__content">
                 <h4 class="contact__title">
-                  Consulting Agency For Accounting
+                  Contact us now for tailored accounting solutions
                 </h4>
               </div>
               <a href="/" target="_blank" class="contact__button" aria-label="Contact us button">Contact Us</a>

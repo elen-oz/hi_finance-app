@@ -177,23 +177,31 @@ body {
 
 /* -----MAIN-BLOCK--------------------- */
 .announcement {
+  position: relative;
+  font-size: 1.3rem;
   color: white;
-  padding: 10px;
+  padding: 25px 0 25px;
   background-color: #0d5c63;
   z-index: 10;
   text-align: center;
 }
 
-.announcement_btn {
+.announcement__link {
   color: white;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer;
 }
 
-.announcement_btn:hover {
+.announcement__link:hover {
   cursor: pointer;
   font-style: italic;
+}
+
+.announcement__btn--close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
 
 .main-block {

@@ -1,6 +1,6 @@
 # The Accountants Website
 
-This repository contains the code for a website created as a school project for a fictitious company called "The Accountants." The website is designed with specific target audience in mind and meets the requirements outlined for accessibility, SEO, and performance.
+This repository contains the code for a website created as a study project for a fictitious company. The website is designed with specific target audience in mind and meets the requirements outlined for accessibility, SEO, and performance.
 
 ## Target Audience
 
@@ -39,4 +39,3 @@ To view the website, simply open the `index.html` file in your web browser. You 
 ## Credits
 
 This project was developed by Elena Ozerova, Maya Jerndahl, Carmela Pippa, Marcus Rydén and Jaemin Shim, as a school project assignment. Special thanks to Ryan Pears for guidance and support throughout the project.
-
