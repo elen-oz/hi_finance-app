@@ -185,8 +185,9 @@ body {
   bottom: 0;
   width: 100%;
   font-size: 1.3rem;
+  line-height: 1.5;
   color: white;
-  padding: 25px 0 25px;
+  padding: 25px 35px 25px;
   background-color: #0d5c63;
   z-index: 10;
   text-align: center;
@@ -197,6 +198,7 @@ body {
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .announcement__link:hover {
