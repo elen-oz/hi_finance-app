@@ -1,5 +1,5 @@
-const subscribeInputFormEl = document.querySelector('#subscribe__input');
-const subscribeButtonFormEl = document.querySelector('#subscribe__button');
+const subscribeInputFormEl = document.getElementById('subscribe__input');
+const subscribeButtonFormEl = document.getElementById('subscribe__button');
 
 subscribeButtonFormEl.addEventListener('click', (e) => {
   e.preventDefault();
@@ -10,4 +10,13 @@ subscribeButtonFormEl.addEventListener('click', (e) => {
   } else {
     alert('Subscription successful!');
   }
+});
+
+const announcementEl = document.getElementById('announcement');
+const announcementCloseBtnEl = document.getElementById(
+  'announcement__btn--close'
+);
+
+announcementCloseBtnEl.addEventListener('click', (e) => {
+  announcementEl.classList.add('close');
 });

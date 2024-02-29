@@ -69,7 +69,7 @@ body {
   width: 100%;
   left: 0;
   top: 0;
-  z-index: 50;
+  z-index: 10;
   background-color: white;
 }
 .header__container {
@@ -176,8 +176,14 @@ body {
 }
 
 /* -----MAIN-BLOCK--------------------- */
-.announcement {
+.announcement__container {
   position: relative;
+}
+.announcement {
+  z-index: 100;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   font-size: 1.3rem;
   color: white;
   padding: 25px 0 25px;
@@ -202,6 +208,15 @@ body {
   position: absolute;
   top: 1rem;
   right: 1rem;
+  padding: 6px;
+}
+.announcement__btn--close:hover {
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.close {
+  display: none;
 }
 
 .main-block {
@@ -1008,6 +1023,7 @@ body {
 }
 .footer__bottom {
   padding: 25px 0;
+  margin-bottom: 70px;
 }
 .footer__container {
   display: flex;
