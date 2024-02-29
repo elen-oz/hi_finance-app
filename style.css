@@ -317,10 +317,6 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  background-image: url('./img/mainblock/cover.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   opacity: 0.3;
   filter: blur(2px);
 }
